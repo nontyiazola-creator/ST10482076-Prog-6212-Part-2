@@ -1,0 +1,87 @@
+# Visual Studio / .NET Core .gitignore
+# See https://github.com/github/gitignore/blob/main/VisualStudio.gitignore for reference
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio directories
+.vs/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+# NuGet v3's project.json files
+project.lock.json
+
+# Microsoft Azure Web Apps publish settings
+PublishProfiles/
+*.Publish.xml
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# EF Core DB
+*.db
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User secrets / environment
+.env
+.env.*
+appsettings.Local.json
+appsettings.Development.json
+
+# Test output
+TestResults/
+
+# Ignore compiled files
+*.exe
+*.dll
+*.pdb
+*.app
+
+# Node/npm
+node_modules/
+
+# Distribution / build output
+dist/
+
+# Coverage
+coverage/
+
+# JetBrains Rider cache
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Certificates
+*.pfx
+
+# Others
+.vscode/
+
